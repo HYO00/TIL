@@ -22,17 +22,12 @@ CORS 에러가 발생하지 않으려면, 현재 도메인과 iframe으로 불�
 
 속성
 
-src : 삽입 할 홈페이지 
-
-url- name : 프레임 이름
-
-width : 프레임 가로 너비
-
-eight : 프레임 세로 길
-
-frameborder : 프레임 테두리 선 (0으로 설정하면 프레임의 테두리선 x, 1로 설정하면 프레임의 테두리선 o)
-
-scrolling : 스크롤바의 표시 여부를 나타냅니다. (yes로 설정하면 스크롤 바 무조건 표시, auto는 자동 표시)
+- src : 삽입 할 홈페이지 
+- url- name : 프레임 이름
+- width : 프레임 가로 너비
+- height : 프레임 세로 길
+- frameborder : 프레임 테두리 선 (0으로 설정하면 프레임의 테두리선 x, 1로 설정하면 프레임의 테두리선 o)
+- scrolling : 스크롤바의 표시 여부를 나타냅니다. (yes로 설정하면 스크롤 바 무조건 표시, auto는 자동 표시)
 
 
 ### **Browsing context**
