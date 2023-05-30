@@ -55,3 +55,23 @@ Node.js 기반의 서버 사이드 애플리케이션 개발을 위한 프레임
 - service.ts
     
     비즈니스 로직 처리
+    ```js
+    import { Injectable } from '@nestjs/common';
+    //주입 
+    @Injectable()
+    export class AppService {
+      getHello(): string {
+        return 'today is monday';
+      }
+
+      postHello(): string {
+        return 'monday is over';
+      }
+    }
+    ``` 
+
+
+- DTO(Data Transfer Object)
+ 데이터 전송 객체 
+컨트롤러에서 DTO를 사용해 클라이언트로부터 전달된 데이터를 검증, 서비스에서 유효성 검사를 통과한 DTO를 기반으로 사용자를 생성하거나 데이터베이스에 저장 
+→ 데이터의 일관성과 유효성을 보장, 코드 가독성 재사용성 향상
