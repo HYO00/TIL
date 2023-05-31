@@ -1,0 +1,29 @@
+# prisma
+
+Node.js와 TypeScript ORM
+
+### prisma folder
+
+```jsx
+//데이터 베이스 연동
+schema.prisma 
+ 
+
+//model 만들기
+model User {
+  id    Int     @default(autoincrement()) @id
+  email String  @unique
+  name  String?
+  password String
+  role String
+}
+
+//migration 
+// schema.prisma file을 읽어 현재 데이터베이스 상태와 비교해 차이가 있는 경우 마이그레이션 파일을 생성 
+//마이그레이션을 적용해 데이터베이스 스키마를 최산 상태로 업데이트
+npx prisma migrate dev
+
+create user_table
+```
+
+*npx - node.js와 함께 제공되는 패키지 실행 도구로, 로컬에 설치된 패키지를 실행하는데 사용
