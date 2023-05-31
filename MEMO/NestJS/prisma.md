@@ -27,3 +27,5 @@ create user_table
 ```
 
 *npx - node.js와 함께 제공되는 패키지 실행 도구로, 로컬에 설치된 패키지를 실행하는데 사용
+
+<img width="628" alt="스크린샷 2023-05-31 오후 11 33 45" src="https://github.com/HYO00/TIL/assets/79884004/3ea53f90-fb5d-4927-9d92-a835554406be">
