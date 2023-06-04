@@ -36,6 +36,7 @@ prisma Client
 
 데이터베이스와 상호작용 
 
+- 명령어
 ```jsx
 npm install @prisma/client
 
@@ -48,6 +49,41 @@ nest g controller user/controller/user --flat
 //서비스 만들기 
 nest g service user/service/user --flat
 ```
-test
 
-<img width="500" alt="image" src="https://github.com/HYO00/TIL/assets/79884004/58b750af-0d20-4583-9685-9101e5620e6e">
+
+- CRUD
+
+`user.service.ts`
+    
+    
+    //method
+    findMany() //전체 조회
+    async fetchAllUsers(): Promise<User[]> {
+        return this.prismaService.user.findMany();
+      }
+    findUnique() //단일 조회
+    delete() // 삭제
+    create() // 추가
+    update() //수정
+  
+   
+ `user.controller.ts`
+    
+
+    @Post()
+    async addUser(@Body() data: User): Promise<User> {
+        return this.userService.addUser(data);
+    }
+    @Get(':id')
+    ...
+    @Put(':id')
+    ...
+    @Delete(':id')
+    ...
+
+test crud
+
+<img width="500" alt="image" src="https://github.com/HYO00/TIL/assets/79884004/c57d72ac-aba8-40ce-8211-1588cec4eaa9">
+
+
+<img width="500" alt="image" src="https://github.com/HYO00/TIL/assets/79884004/808b9909-6455-4fd5-bdb9-5d59cd3b179a">
