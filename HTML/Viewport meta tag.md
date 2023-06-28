@@ -50,4 +50,17 @@ Usage of user-scalable=no can cause accessibility issues to users with visual im
   Specifies the effect that interactive UI widgets, such as a virtual keyboard, have on the page's viewports. 
   - Valid values: resizes-visual, resizes-content, or overlays-content. Default: resizes-visual.
 
+### 브라우저 viewport 구하기 
+
+- document.documentElement.clientWidth / clientHeight
+
+문서의 viewport 크기
+
+- window.innerWidth / innerHeight
+
+브라우저 viewport 의 스크롤 포함 크기
+
+- window.outerWidth / outerHeight
+
+브라우저 창 크기
 
