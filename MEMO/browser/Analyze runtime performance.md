@@ -69,7 +69,7 @@ Chrome DevTools 성능 패널을 사용하여 런타임 성능을 분석하는 �
   - 넓은 막대는 오래걸림을 의미
   - y축은 call stack 의미 
 
-
+...작성중
 
 https://developer.chrome.com/docs/devtools/performance/
 
