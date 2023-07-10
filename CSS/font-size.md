@@ -4,6 +4,11 @@
 
 사용자에게 가독성과 사용자 경험을 개선할 수 있는 크기로 간주된다. 
 
+chrome://settings/fonts
+
+![image](https://github.com/HYO00/TIL/assets/79884004/39aee014-de04-43d7-b84d-baf2152c6033)
+
+chrome://settings/fonts에서 기본적으로 폰트 사이즈 10으로 설정된것을 확인할 수 있다. 
 
 <br/>
 
